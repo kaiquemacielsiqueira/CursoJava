@@ -18,6 +18,8 @@ public class ProcessamentoDados2 {
 		System.out.println(s2);
 		System.out.println(s3);
 
+		sc.close();
+
 		// O s1 vai aparecer vazio, pois o "enter" que foi a quebra de lnha consumiu
 		// ele. Sempre que for usar outro comando diferente do nextLine, o nextline ira
 		// consumir a quebra de linha. Isso se resolve fazendo um NextLine extra, antes
