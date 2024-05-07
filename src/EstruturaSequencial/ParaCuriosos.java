@@ -1,3 +1,4 @@
+package EstruturaSequencial;
 
 public class ParaCuriosos {
 

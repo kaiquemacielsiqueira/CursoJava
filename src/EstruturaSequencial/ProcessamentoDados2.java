@@ -1,3 +1,4 @@
+package EstruturaSequencial;
 import java.util.Scanner;
 
 public class ProcessamentoDados2 {
