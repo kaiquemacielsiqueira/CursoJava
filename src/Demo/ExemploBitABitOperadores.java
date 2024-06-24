@@ -9,7 +9,8 @@ public class ExemploBitABitOperadores {
 		System.out.println(n1 | n2);
 		System.out.println(n1 ^ n2);
 
-		// exemplo bit a bit de operadores &(e) |(ou) ^(ou exclusivo);
+		// exemplo bit a bit de operadores &(e) |(ou) ^(ou exclusivo)
+		// Usado em programação de baixo nivel
 	}
 
 }
