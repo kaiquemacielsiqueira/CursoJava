@@ -23,7 +23,7 @@ public class Program2 {
 		System.out.println("Quantity in stock: ");
 		product.quantity = sc.nextInt();
 
-		System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+		System.out.println(product); // Esta fazendo chamada pra product, que entende que tem um toString lá
 
 		sc.close();
 
