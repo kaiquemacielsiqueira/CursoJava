@@ -8,6 +8,7 @@ public class ProgramSemPOO {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+
 		System.out.println("Enter the measures of triangle X: ");
 		double x1 = sc.nextDouble();
 		double x2 = sc.nextDouble();
@@ -32,6 +33,7 @@ public class ProgramSemPOO {
 		} else {
 			System.out.println("Larger area: Y");
 		}
+
 		sc.close();
 
 	}
