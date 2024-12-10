@@ -13,6 +13,8 @@ public class Employee {
 	public void increaseSalary(double percentage) {
 		if (percentage >= 0 && percentage <= 100) {
 			grossSalary += grossSalary * percentage / 100.0;
+		} else {
+			System.out.println("Invalid percentage");
 		}
 	}
 
