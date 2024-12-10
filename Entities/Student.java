@@ -18,4 +18,8 @@ public class Student {
 		}
 	}
 
+	public String toString() {
+		return "O aluno " + name + " obteve a nota final: " + String.format("%.2f", finalGrade());
+	}
+
 }
