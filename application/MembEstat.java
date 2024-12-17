@@ -11,16 +11,18 @@ public class MembEstat {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		Calculator calc = new Calculator();
 
 		System.out.println("Enter radius: ");
 		double radius = sc.nextDouble();
-		double c = calc.circumference(radius);
-		double v = calc.volume(radius);
+		double c = Calculator.circumference(radius);
+		double v = Calculator.volume(radius);
+		// Como a classe Calculator tem operações e constantes estaticas, eu pude
+		// declarar todo mundo na classe como estatico, e usar diretamente as operações
+		// através do nome da classe, sem precisar instanciar um objeto.
 
 		System.out.printf("Circunference: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
-		System.out.printf("PI value: %.2f%n", calc.PI);
+		System.out.printf("PI value: %.2f%n", Calculator.PI);
 
 		sc.close();
 
